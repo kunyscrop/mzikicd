@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mzikicd – Made in Congo</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.png" alt="Mzikicd" class="logo" />
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#">Audio</a>
+      <a href="#">Vidéo</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="search-bar">
+      <input type="text" placeholder="Rechercher une chanson ou une vidéo…" />
+    </div>
+
+    <section class="upload-section">
+      <h2>🎵 Uploader un fichier</h2>
+      <input type="file" id="mediaFile" accept="audio/*,video/*" />
+      <button onclick="signIn()">🔐 Se connecter</button>
+      <button onclick="uploadFile()">⬆️ Envoyer</button>
+    </section>
+
+    <section>
+      <h2>🔥 Populaires</h2>
+      <div class="media-grid" id="popular-media">
+        <!-- Contenu populaire -->
+      </div>
+    </section>
+
+    <section>
+      <h2>🆕 Nouveautés</h2>
+      <div class="media-grid" id="new-media">
+        <!-- Contenu nouveau -->
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Mzikicd. Tous droits réservés | Fièrement Congolais 🇨🇩
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
