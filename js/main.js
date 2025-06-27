@@ -21,7 +21,7 @@ function signIn() {
     .then(() => alert("✅ Connecté"))
     .catch(err => alert("Erreur de connexion contact kuny137 : " + err.message));
 }
-
+console.log("main.js chargé");
 // Upload fichier
 function uploadFile() {
   const file = document.getElementById("mediaFile").files[0];
