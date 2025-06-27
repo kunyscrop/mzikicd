@@ -15,7 +15,7 @@ const storage = firebase.storage();
 
 // Connexion unique
 function signIn() {
-  const email = "kuny137@gmail.com";
+  const email = "kunylakalwi@gmail.com";
   const pass = "kuny137$KN";
   auth.signInWithEmailAndPassword(email, pass)
     .then(() => alert("✅ Connecté"))
